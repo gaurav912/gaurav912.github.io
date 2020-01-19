@@ -1,18 +1,237 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio</title>
+	<title>Gaurav Devkota</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Rajdhani&display=swap" rel="stylesheet">
 	<style type="text/css">
-		.info{
+		body{
+			margin: 0px;
+			padding:0px;
+			background-color: #1abc9c;
+			color: #fff;
+		}
+		header{
+			margin: 0px;
+			color: white;
+			height: 100px;
+		}
+		.nav{
+			margin: 15px auto;
 			text-align: center;
-			font-size: 50px;
+			font-size: 20px;
+			padding: 10px 0px;
+			position: sticky;
+			top: 0px;
+		}
+		.nav ul li{
+			list-style-type: none;
+			display: inline;
+			padding: 5px 25px; 
+		}
+		.nav ul li a{
+			text-decoration: none;
+			color:#2c3e50;
+		}
+		.clear{
+			clear: both;
+		}
+		.profile-image-wrapper{
+			text-align: center;
+		}
+		.profile-image-wrapper img{
+			height: 300px;
+			width: 300px;
+			object-fit:cover;
+			border-radius: 50%;
+			transform: rotate(90deg);
+		}
+		.profile-name h1{
+			font-family: 'Pacifico', cursive;
+			font-size: 40px;
+			margin-top: 0px;
+		}
+		.contact-links{
+			padding: 5px 0px;
+			font-size: 15px;
+		}
+		.contact-links a{
+			color: #000;
+		}
+		.maincontent{
+			text-align: center;
+		}
+		.objective-wrapper{
+			text-align: center;
+			font-size: 24px;
+			max-width: 650px;
+			margin:0 auto;
+			color: #ecf0f1;
+		}
+		.bachelor h2,h3,h4,h5 , .plustwo h2,h3,h4,h5 , .slc h2,h3,h4,h5{
+			margin: 0px auto;
+		}
+		hr{
+			max-width: 200px;
+			border-radius: 1px solid grey;
+		}
+		.content-title{
+			font-family: 'Amatic SC', cursive;
+			font-size: 40px;
+			font-weight: bold;
+			color: #e74c3c;
+		}
+		.skills p{
+			font-size: 25px;
+		}
+		.subtitle{
+			font-family: 'Rajdhani', sans-serif;
+		}
+		 .songanalysis, .chess, .objstorage {
+		 	margin: 0px auto;
+			text-align: center;
+			max-width: 800px;
+			
+		}
+
+		footer{
+			text-align: center;
+			height: 50px;
+			background-color: black;
+			padding: 5px;
 		}
 	</style>
 </head>
 <body>
+	<header>
+		<div class="nav" id="nav">
+			<ul>
+				<li><a href="index.html">Home</li></a>
+				<li><a href="#about">About</li></a>
+				<li><a href="#education">Education</li></a>
+				<li><a href="#skills">Skills</li></a>
+				<li><a href="#training">Trainings</li></a>
+				<li><a href="#project">Projects</li></a>
+				<li><a href="#contact">Contact</li></a>
+			</ul>
+		</div>
+	</header>
+	<div class="about-container" id="about">
+		<div class="profile-image-wrapper">
+			<img src="assets/images/gaurav.jpg" alt="Gaurav Devkota">
+			<div class="profile-name">
+				<h1>Gaurav Devkota</h1>						
+			</div>
+			<div class="contact-links">
+				<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="#"><i class="fa fa-google fa-2x"></i></a>
+				<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="#"><i class="fa fa-github fa-2x"></i></a>
+				<a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="maincontent">
+		<div class="objective-wrapper">
+			<p>I want to work in an organization where I can see myself growing, learn new skills and use them
+				to develop myself and contribute to the development of the organization.</p>
+		</div>
+		<div class="education-background" id="education">
+			<h1 class="content-title">Education</h1>
+			<div class="bachelor">
+				<h4>Bachelor</h4>
+				<h2 class="subtitle">Computer Science and Engineering</h2>
+				<h4>2015-2019</h4>
+				<h3>University ofEngineering and Management</h3>
+				<h5>Jaipur,India</h5>
+			</div>
+			<hr>
+			<div class="plustwo">
+				<h4>High school</h4>
+				<h2 class="subtitle">Science</h2>
+				<h4>2012-2014</h4>
+				<h3>Trinity International H.S.S</h3>
+				<h5>Dillibazar,Kathmandu</h5>
+			</div>
+			<hr>
+			<div class="slc">
+				<h2 class="subtitle">Secondary School</h2>
+				<h4>2012</h4>
+				<h3>Elixir Academy</h3>
+				<h5>Gaurighat,Kathmandu</h5>
+		
+			</div>
+			<hr>
+		</div>
+		<div class="skills" id="skills">
+			<h1 class="content-title">Skills</h1>
+			<p>HTML | CSS | BOOTSTRAP | JAVASCRIPT </p>
+			<P>PYTHON | PHP | C </P>
+			<P>LARAVEL | DJANGO</P>
+			<P>PHOTOSHOP | INKSCAPE</P>
+			<P>AWS | DOCKER</P>
+		</div>
+		<div class="trainings" id="training">
+			<h1 class="content-title">Trainings</h1>
+			<div class="cloud">
+				<h2 class="subtitle">Cloud Computing on AWS</h2>
+				<h4>May-June 2018</h4>
+				<h3>Adhoc Networks,Jaipur,India</h3>
+			</div>
+			<hr>
+			<div class="java">
+				<h2 class="subtitle">Core Java</h2>
+				<h4>June-August 2017</h4>
+				<h3>Broadway Infosys,Kathmandu,Nepal</h3>
+			</div>
+			<hr>
+			<div class="webdesign">
+				<h2 class="subtitle">Web Design</h2>
+				<h4>April-July 2016</h4>
+				<h3>Broadway Infosys,Kathmandu,Nepal</h3>
+			</div>
+		</div>
+		<div class="projects" id="project">
+			<h1 class="content-title">Projects</h1>
+			<div class="songanalysis">
+				<h2 class="subtitle">Mood Recognition and Recommendation System</h2>
+				<p>Mood recognition and recommendation system running on a desktop based music player implemented using python tkinter,audio analysis and deep learning
+					which detects the mood of the user based on the songs he/she is listening to and recommends
+					similar type of songs to the user.</p>
+			</div>
+			<div class="objstorage">
+				<h2 class="subtitle">CloudmiX-An Object Storage Cloud Service</h2>
+				<p>An object storage cloud service with media streaming which is similar to a google drive
+					with an additional feature of streaming the data on the browser. Users could create an account and
+					get the desired amount of cloud storage where they can save their data and access from anywhere	
+					within the network.</p>
 
-	<h1 class="info">Portfolio under construction</h1>
+			</div>
+			<div class="chess">
+				<h2 class="subtitle">Chess</h2>
+				<p>A simple chess game developed using java swing and the graphical features of java. It was part
+					of an academic projects where we in a team, transformed our knowledge to the practical
+					implementation.</p>
+			</div>
+		</div>
+		<div class="contact" id="contact">
+			<h1 class="content-title">Get In Touch</h1>
+			<div class="contact-links">
+				<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="#"><i class="fa fa-google fa-2x"></i></a>
+				<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="#"><i class="fa fa-github fa-2x"></i></a>
+				<a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>copyright &copy; 2020</p>
+	</footer>
 
 </body>
 </html>
