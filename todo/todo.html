@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Todo List</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/todolist.css">
+	<script type="text/javascript" src="js/todo.js" defer></script>
+</head>
+<body>
+<div class="container">
+	<h1 class="todo-title">WORK TO-DOS</h1>
+	<p class="addInfo">Enter text into the input fieldto add items to your list(max.28 characters).</p>
+	<p class="markInfo">Click the item to mark it as complete.<p>
+	<p class="removeInfo">Click the "X" to remove the item from your list.</p>
+	<input class="todoInput" id="inputBox" type="text" placeholder="New item..."><button id="addBtn">Add</button>
+	<div id="task-list-wrapper">
+			<h2>Todo</h2>
+			<div id="pendingList">
+			</div>	
+			
+			<h2>Completed</h2>
+			<ul id="completedList">
+				
+			</ul>
+	</div>
+
+</div>
+
+</body>
+</html>
