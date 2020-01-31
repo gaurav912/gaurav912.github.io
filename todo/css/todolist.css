@@ -36,7 +36,7 @@ body{
 	margin-right: 5px;
 	border-radius: 3px;
 }
-#todoSubmit{
+#addBtn{
 	border:none;
 	height: 30px;
 	border-radius: 5px;
@@ -50,4 +50,26 @@ body{
 
 .taskLists{
 	list-style-type: none;
+}
+.taskTitle{
+	border :solid 2px green;
+	padding: 10px;
+}
+
+ul li{
+	list-style-type: none;
+	font-size: 18px;
+	margin: 5px;
+}
+ul li button{
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	color: white;
+}
+.delete{
+background-color: red ;
+}
+.mark{
+background-color: green;
 }
