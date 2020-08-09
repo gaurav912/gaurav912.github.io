@@ -88,12 +88,18 @@
 		.subtitle{
 			font-family: 'Rajdhani', sans-serif;
 		}
-		 .songanalysis, .chess, .objstorage {
+		 .usermanagement, .chess, .objstorage, .todo {
 		 	margin: 0px auto;
 			text-align: center;
 			max-width: 800px;
 			
 		}
+
+		.usermanagement a, .todo a{
+			text-decoration: none;
+			color: #ffffff;
+		}
+
 		.gotop{
 			width: 100px;
 			height: 100px;
@@ -106,6 +112,12 @@
 		.gotop a{
 			color: green;
 		}
+
+		.projects h2 :hover{
+			border: 1px solid #ffbd33;
+			padding:5px 10px;
+		}
+
 		footer{
 			text-align: center;
 			height: 50px;
@@ -135,12 +147,12 @@
 			<div class="profile-name">
 				<h1>Gaurav Devkota</h1>						
 			</div>
-			<div class="contact-links">
+			<div class="contact-links ">
 				<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-				<a href="#"><i class="fa fa-google fa-2x"></i></a>
+				<a href="https://gitlab.com/gaurav912" target="_blank"><i class="fa fa-gitlab fa-2x"></i></a>
 				<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-				<a href="#"><i class="fa fa-github fa-2x"></i></a>
-				<a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a href="https://github.com/gaurav912" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+				<a href="https://www.linkedin.com/in/gaurav-devkota912/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 				<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
 			</div>
 		</div>
@@ -181,23 +193,22 @@
 		<div class="skills" id="skills">
 			<h1 class="content-title">Skills</h1>
 			<p>HTML | CSS | BOOTSTRAP | JAVASCRIPT </p>
-			<P>PYTHON | PHP | C </P>
-			<P>LARAVEL | DJANGO</P>
+			<P>PYTHON | DJANGO</P>
 			<P>PHOTOSHOP | INKSCAPE</P>
 			<P>AWS | DOCKER</P>
 		</div>
 		<div class="trainings" id="training">
 			<h1 class="content-title">Trainings</h1>
+			<div class="django">
+				<h2 class="subtitle">Django Bootcamp</h2>
+				<h4>Jan-March 2020</h4>
+				<h3>Insight Workshop,Kathmandu,Nepal</h3>
+			</div>
+			<hr>
 			<div class="cloud">
 				<h2 class="subtitle">Cloud Computing on AWS</h2>
 				<h4>May-June 2018</h4>
 				<h3>Adhoc Networks,Jaipur,India</h3>
-			</div>
-			<hr>
-			<div class="java">
-				<h2 class="subtitle">Core Java</h2>
-				<h4>June-August 2017</h4>
-				<h3>Broadway Infosys,Kathmandu,Nepal</h3>
 			</div>
 			<hr>
 			<div class="webdesign">
@@ -208,11 +219,14 @@
 		</div>
 		<div class="projects" id="project">
 			<h1 class="content-title">Projects</h1>
-			<div class="songanalysis">
-				<h2 class="subtitle">Mood Recognition and Recommendation System</h2>
-				<p>Mood recognition and recommendation system running on a desktop based music player implemented using python tkinter,audio analysis and deep learning
-					which detects the mood of the user based on the songs he/she is listening to and recommends
-					similar type of songs to the user.</p>
+			<div class="usermanagement">
+				<h2 class="subtitle"><a href="https://djangousermanagement.herokuapp.com/" target="_blank">User Management in Django</a></h2>
+				<p>This is a web application that was made to learn how user management is implemented in django 
+				during the course of learning django and deployed in heroku server.</p>
+			</div>
+			<div class="todo">
+				<h2 class="subtitle"><a href="https://todoindjango.herokuapp.com/" target="_blank">Todo</a></h2>
+				<p>A simple todo web application made in django as a backend framework and bootstrap for frontend and deployed on heroku server.</p>
 			</div>
 			<div class="objstorage">
 				<h2 class="subtitle">CloudmiX-An Object Storage Cloud Service</h2>
@@ -222,21 +236,15 @@
 					within the network.</p>
 
 			</div>
-			<div class="chess">
-				<h2 class="subtitle">Chess</h2>
-				<p>A simple chess game developed using java swing and the graphical features of java. It was part
-					of an academic projects where we in a team, transformed our knowledge to the practical
-					implementation.</p>
-			</div>
 		</div>
 		<div class="contact" id="contact">
 			<h1 class="content-title">Get In Touch</h1>
 			<div class="contact-links">
 				<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-				<a href="#"><i class="fa fa-google fa-2x"></i></a>
+				<a href="https://gitlab.com/gaurav912" target="_blank"><i class="fa fa-gitlab fa-2x"></i></a>
 				<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-				<a href="#"><i class="fa fa-github fa-2x"></i></a>
-				<a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a href="https://github.com/gaurav912" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+				<a href="https://www.linkedin.com/in/gaurav-devkota912/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 				<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
 			</div>
 		</div>
