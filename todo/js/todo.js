@@ -4,11 +4,12 @@ const addt = document.querySelector('#addBtn');
 addt.addEventListener('click',addTodoItems);
 
 function addTodoItems(){
-	// getCookiesdata();
+	getCookiesdata();
 	newTodo = document.getElementById("inputBox").value;
 	if(newTodo!=""){
 		pendingTodo.push(newTodo);
 		document.getElementById("inputBox").value = "";
+		setCookiesData();
 		showTodos();
 	}
 }
